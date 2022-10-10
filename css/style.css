@@ -1,0 +1,48 @@
+:root {
+    --gutter: 2vw;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #083b4c;
+}
+
+h1 {
+    font-size: calc(1rem + 3vw);
+    text-align: center;
+    color: white;
+}
+
+.row {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter);
+    padding-top: 2vw;
+}
+
+.cell {
+    width: calc((70vw / 7) - (6 * var(--gutter) / 7));
+    height: calc((70vw / 7) - (6 * var(--gutter) / 7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(.1rem + 1.5vw);
+}
+
+.bg-blue {
+    background-color: #1389b2;
+}
+
+.bg-green {
+    background-color: #0bd6a1;
+}
+
+.bg-yellow {
+    background-color: #ffd166;
+}
+
+.bg-red {
+    background-color: #f0466f;
+}
